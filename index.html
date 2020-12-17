@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Form</title>
+</head>
+
+<body>
+<div id="main">
+  
+<div id="heading">
+  
+  <h1 id="title">Cakezone Birthday Cakes</h1>
+  <p id="description">Fill out the form to order birthday cakes from Cakezone.</p>
+  </div>
+  
+  
+   <div class="form"> 
+  <form id="survey-form" autocomplete="on">
+    
+    
+    <div class="form-field">
+    <label for="name" id="name-label">Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" class="form-entry" required>
+    </div>
+    
+    <div class="form-field">
+    <label for="email" id="email-label">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" class="form-entry" required>
+      
+    </div>
+    
+    <div class="form-field">
+    <label for="number" id="number-label">Expected no. of people (2 to 20)</label><br>
+    <input type="number" id="number" name="number" placeholder="Enter number of people" min="2" max="20" class="form-entry">
+      
+    </div>
+    
+    <div class="form-field">
+      <label for="dropdown" id="cakebase-dropdown">Select Base for your cake</label><br>
+    <select id="dropdown" name="dropdown" class="form-entry">
+      <option disabled selected value>Select cake base</option>
+      <option value="chocolate">Chocolate</option>
+      <option value="oreo">Oreo</option>
+      <option value="red-velvet">Red velvet</option>
+      <option value="white-chocolate">White Chocolate</option>
+      <option value="lemon">Lemon</option>
+    </select>
+    
+    </div>
+    
+    <div class="form-field">
+    <p id="radio-para">Type of Cake:</p>
+    <label for="egg">
+      <input type="radio" id="egg" name="eggornot" value="egg" class="radio-entry">Egg
+    </label>
+    <label for="eggless">
+      <input type="radio" id="eggless" name="eggornot" value="eggless" class="radio-entry">Eggless
+    </label>
+      
+    </div>
+    
+    <div class="form-field">
+    <label for="cream" id="cream-dropdown">Select cream for your cake.</label><br>
+    <select id="cream" name="cream" class="form-entry">
+      <option disabled selected value>Select cream</option>
+      <option value="black-forrest">Blackforrest</option>
+      <option value="chocolate">Chocolate</option>
+      <option value="red-velvet">Red velvet</option>
+      <option value="vanilla">Vanilla</option>
+      <option value="rose">Rose</option>
+    </select>
+      
+    </div>
+    
+    <div class="form-field">
+      <p id="extras"> Select Extras</p>
+    <input type="checkbox" id="candles" name="candles" value="candles" class="checkbox-entry">Candles
+     <input type="checkbox" id="balloons" name="balloons" value="balloons" class="checkbox-entry">Balloons
+     <input type="checkbox" id="candies" name="candies" value="candies" class="checkbox-entry">Candies
+     <input type="checkbox" id="crackers" name="crackers" value="crackers" class="checkbox-entry">Crackers
+     <input type="checkbox" id="hats" name="hats" value="hats" class="checkbox-entry">Hats
+      
+    </div>
+    
+    <div class="form-field">
+      <p id="textoncake"> What goes on the cake?</p>
+    <textarea id="textoncake" name="textoncake" rows="3" cols="50" class="text-entry">
+Happy Birthday to dear Aryan
+</textarea>
+      
+    </div>
+    </body>
+    </html>
+    
+    <input type="submit" value="Submit" id="submit">
+    
+    </form>
+  
+  </div>
+
+
+</div>
+
